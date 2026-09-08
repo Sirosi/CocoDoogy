@@ -1,0 +1,7 @@
+namespace CocoDoogy.LifeCycle
+{
+    public interface IInit<T>
+    {
+        public void OnInit(T data);
+    }
+}
